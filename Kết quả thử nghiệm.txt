@@ -1,0 +1,27 @@
+Ghi nhận các lần thử nghiệm của mô hình Random Forest
+
+
+trial_1: Không cân bằng và  không xóa ngoại lai 
+
+=> Nhận thấy mô hình đang có kết rất tốt và có dấu hiệu quá khớp nên sẽ sử dụng các trường hợp khác để đánh giá mô hình
+
+
+trial_2:  Không cân bằng và xóa ngoại lai
+
+=> Mô hình có kết quả gần giống thử nghiệm 1
+
+
+trial_3:  Cân bằng và ko xóa ngoại lai và tập Train / Test được chia ngẫu nhiên theo tỷ lệ Train (80) và Test (20).
+=> Mô hình vẫn có kết quả tốt
+
+trial_4: Cân bằng và ko xóa ngoại lai và xây mô hình Random Forest bằng mô hình autogluon vì autogluon lấy chỉ số tốt nhất cho mô hình
+
+=> Mô hình có kết quả tốt hơn khi dùng autogluon để xây Random Forest
+
+Kết luận từ 4 thử nghiệm cho thấy quá trình xây dựng mô hình được thực hiện chính xác và các chỉ số cao của mô hình là hoàn toàn hợp lý.
+
+
+
+
+
+
